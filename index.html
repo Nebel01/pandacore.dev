@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panda Software House | Siti Web, Web App e Gestionali su Misura</title>
+    <meta
+      name="description"
+      content="Panda Software House realizza siti web professionali, siti per eventi, web app e gestionali su misura per aziende, professionisti e privati."
+    />
+    <meta
+      name="keywords"
+      content="software house, siti web, web app, gestionali, siti per eventi, sviluppo frontend"
+    />
+    <meta name="theme-color" content="#06061f" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:title" content="Panda Software House | Siti Web, Web App e Gestionali su Misura" />
+    <meta
+      property="og:description"
+      content="Soluzioni digitali pensate per aziende, professionisti, eventi e progetti su misura."
+    />
+    <meta property="og:image" content="assets/img/panda_logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Panda Software House" />
+    <meta
+      name="twitter:description"
+      content="Siti web, web app e gestionali costruiti su misura per il tuo progetto."
+    />
+    <link rel="canonical" href="https://www.pandasoftwarehouse.it/" />
+    <link rel="icon" type="image/png" href="assets/img/panda_logo_icon.png" />
+    <script>
+      tailwind = {
+        config: {
+          theme: {
+            extend: {
+              colors: {
+                night: "#06061f",
+                cyanpulse: "#19cfff",
+                limelight: "#7cff00",
+                ocean: "#248bff"
+              },
+              boxShadow: {
+                orbit:
+                  "inset 0 0 40px rgba(25,207,255,.08), 0 0 60px rgba(124,255,0,.08), 0 0 90px rgba(36,139,255,.1)"
+              }
+            }
+          }
+        }
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "Panda Software House",
+            "url": "https://www.pandasoftwarehouse.it",
+            "logo": "https://www.pandasoftwarehouse.it/assets/img/panda_logo.png"
+          },
+          {
+            "@type": "ProfessionalService",
+            "name": "Panda Software House",
+            "description": "Software house specializzata in realizzazione siti web, siti per eventi, web app e gestionali su misura.",
+            "areaServed": "Italia",
+            "serviceType": [
+              "Realizzazione siti web",
+              "Siti per eventi",
+              "Sviluppo web app",
+              "Sviluppo gestionali"
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-night text-white selection:bg-cyan-300 selection:text-slate-950">
+    <div class="site-shell min-h-screen" id="top">
+      <header class="sticky top-0 z-50 border-b border-white/10 bg-[#06061f]/80 backdrop-blur-xl">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+          <a href="#top" aria-label="Vai alla homepage Panda Software House">
+            <img class="h-10 w-auto" src="assets/img/panda_logo_icon.png" alt="Panda Software House" />
+          </a>
+
+          <nav class="menu-desktop hidden items-center gap-8 text-sm font-semibold lg:flex">
+            <a href="#servizi" class="transition">Servizi</a>
+            <a href="#progetti" class="transition">Progetti</a>
+            <a href="#faq" class="transition">FAQ</a>
+            <a href="#contatti" class="transition">Contatti</a>
+          </nav>
+
+          <button
+            id="menu-toggle"
+            type="button"
+            class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/5 lg:hidden"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Apri menu"
+          >
+            <span class="sr-only">Apri menu</span>
+            <span class="block h-0.5 w-5 bg-white"></span>
+          </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden border-t border-white/10 bg-[#06061f]/95 lg:hidden">
+          <nav class="mx-auto flex max-w-7xl flex-col px-4 py-4 text-sm font-semibold sm:px-6">
+            <a class="rounded-2xl px-4 py-3 hover:bg-white/5" href="#servizi">Servizi</a>
+            <a class="rounded-2xl px-4 py-3 hover:bg-white/5" href="#progetti">Progetti</a>
+            <a class="rounded-2xl px-4 py-3 hover:bg-white/5" href="#faq">FAQ</a>
+            <a class="rounded-2xl px-4 py-3 hover:bg-white/5" href="#contatti">Contatti</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="mx-auto flex max-w-7xl flex-col">
+        <section class="relative overflow-hidden">
+          <div class="grid grid-cols-1 gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8 lg:py-24">
+            <div class="flex flex-col justify-center">
+              <div class="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/70 backdrop-blur-xl">
+                Soluzioni digitali per tutti, trasformiamo idee in prodotti reali
+              </div>
+              <h1 class="text-4xl font-black leading-none sm:text-5xl lg:text-6xl">
+                Realizzazione <span class="text-gradient">siti web, web app e gestionali</span> su misura.
+              </h1>
+              <p class="mt-6 max-w-2xl text-base leading-8 text-white/72 sm:text-lg">
+                Panda realizza siti web e prodotti digitali per aziende, professionisti e privati. Dai portali operativi ai siti rapidi per eventi,
+                matrimoni, battesimi, compleanni e progetti speciali, costruiamo soluzioni chiare, veloci e curate.
+              </p>
+              <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                <a
+                  href="#contatti"
+                  class="inline-flex items-center justify-center rounded-full bg-[linear-gradient(135deg,#7CFF00,#19CFFF,#248BFF)] px-7 py-4 text-sm font-semibold text-slate-950 hover:opacity-95"
+                >
+                  Richiedi una consulenza
+                </a>
+                <a
+                  href="#progetti"
+                  class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-4 text-white hover:bg-white/10">
+                  Guarda i progetti
+                </a>
+              </div>
+            </div>
+
+            <div class="relative flex items-center">
+              <div class="hero-orbit relative w-full overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-4 shadow-orbit backdrop-blur-xl sm:p-6">
+                <div class="relative rounded-[2rem] border border-white/10 p-6">
+                  <div class="flex items-center justify-between gap-4">
+                    <img class="h-10 w-auto" src="assets/img/panda_logo.png" alt="Panda Software House" />
+                    <div class="inline-flex w-fit items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/70 backdrop-blur-xl">
+                      Progetti in corso
+                    </div>
+                  </div>
+                  <div class="mt-6 grid grid-cols-3 gap-3">
+                    <div class="h-24 rounded-2xl border border-white/10 bg-black/20"></div>
+                    <div class="h-24 rounded-2xl border border-white/10 bg-black/20"></div>
+                    <div class="h-24 rounded-2xl border border-white/10 bg-black/20"></div>
+                  </div>
+                </div>
+
+                <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                  <div class="rounded-[1.5rem] border border-white/10 bg-[#0d143a] p-5">
+                    <div class="mb-3 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white/5 text-cyan-300">01</div>
+                    <h3 class="text-lg font-semibold">Dal sito alla piattaforma</h3>
+                    <p class="mt-2 text-sm leading-7 text-white/65">
+                      Dalla landing veloce alla web app complessa, costruiamo soluzioni coerenti con il tuo obiettivo.
+                    </p>
+                  </div>
+                  <div class="rounded-[1.5rem] border border-white/10 bg-[#0d143a] p-5">
+                    <div class="mb-3 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white/5 text-lime-300">02</div>
+                    <h3 class="text-lg font-semibold">SEO + performance</h3>
+                    <p class="mt-2 text-sm leading-7 text-white/65">
+                      Struttura pensata per indicizzazione, caricamento rapido e crescita futura del progetto.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="servizi" class="px-4 py-20 sm:px-6 lg:px-8">
+          <div class="mb-10 max-w-3xl">
+            <div class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">Servizi</div>
+            <h2 class="text-3xl font-black sm:text-4xl">Sviluppiamo progetti digitali per aziende, professionisti e privati.</h2>
+            <p class="mt-5 text-lg leading-8 text-white/70">
+              Siti rapidi per eventi, web app moderne, piattaforme operative e gestionali su misura con un approccio orientato a chiarezza,
+              usabilita e crescita online.
+            </p>
+          </div>
+
+          <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(124,255,0,0.18),rgba(25,207,255,0.18),rgba(36,139,255,0.18))] text-sm font-bold">SW</div>
+              <h3 class="text-xl font-semibold">Realizzazione siti web</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Sviluppiamo siti web professionali per aziende, professionisti, attivita locali e privati.</p>
+            </article>
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(124,255,0,0.18),rgba(25,207,255,0.18),rgba(36,139,255,0.18))] text-sm font-bold">EV</div>
+              <h3 class="text-xl font-semibold">Siti personalizzati per eventi</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Creiamo pagine rapide e curate per matrimoni, battesimi, compleanni e occasioni speciali.</p>
+            </article>
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(124,255,0,0.18),rgba(25,207,255,0.18),rgba(36,139,255,0.18))] text-sm font-bold">WA</div>
+              <h3 class="text-xl font-semibold">Web app su misura</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Progettiamo strumenti digitali e piattaforme costruite intorno alle esigenze del tuo progetto.</p>
+            </article>
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(124,255,0,0.18),rgba(25,207,255,0.18),rgba(36,139,255,0.18))] text-sm font-bold">GM</div>
+              <h3 class="text-xl font-semibold">Gestionali personalizzati</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Realizziamo applicativi per automatizzare processi, dati e flussi di lavoro in modo semplice.</p>
+            </article>
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(124,255,0,0.18),rgba(25,207,255,0.18),rgba(36,139,255,0.18))] text-sm font-bold">RF</div>
+              <h3 class="text-xl font-semibold">Responsive e mobile-first</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Ogni progetto viene pensato per desktop, tablet e smartphone, con attenzione a usabilita e performance.</p>
+            </article>
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[linear-gradient(135deg,rgba(124,255,0,0.18),rgba(25,207,255,0.18),rgba(36,139,255,0.18))] text-sm font-bold">GO</div>
+              <h3 class="text-xl font-semibold">Dalla tua idea alla realta</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Analizziamo obiettivi, funzionalita e struttura del progetto per trasformarlo in un prodotto digitale concreto.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="progetti" class="px-4 py-10 sm:px-6 lg:px-8">
+          <div class="max-w-3xl">
+            <div class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-lime-300">Progetti in essere</div>
+            <h2 class="text-3xl font-black sm:text-4xl">Esperienze e prodotti in evoluzione.</h2>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-3">
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-6 h-44 rounded-[1.5rem] border border-white/10 bg-[linear-gradient(135deg,rgba(124,255,0,0.12),rgba(25,207,255,0.12),rgba(36,139,255,0.12))]"></div>
+              <h3 class="text-2xl font-bold">TotemGo</h3>
+              <p class="mt-4 text-sm leading-7 text-white/68">Esperienza digitale pensata per semplificare contenuti e servizi informativi in contesti fisici e interattivi.</p>
+            </article>
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-6 h-44 rounded-[1.5rem] border border-white/10 bg-[linear-gradient(135deg,rgba(124,255,0,0.12),rgba(25,207,255,0.12),rgba(36,139,255,0.12))]"></div>
+              <h3 class="text-2xl font-bold">Cuando</h3>
+              <p class="mt-4 text-sm leading-7 text-white/68">Progetto focalizzato su organizzazione, calendario e accesso rapido alle informazioni con un'interfaccia chiara.</p>
+            </article>
+            <article class="rounded-[1.8rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-6 h-44 rounded-[1.5rem] border border-white/10 bg-[linear-gradient(135deg,rgba(124,255,0,0.12),rgba(25,207,255,0.12),rgba(36,139,255,0.12))]"></div>
+              <h3 class="text-2xl font-bold">Fantacineforum</h3>
+              <p class="mt-4 text-sm leading-7 text-white/68">Piattaforma dedicata a una community verticale, progettata per coinvolgere utenti, contenuti e partecipazione.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="px-4 py-20 sm:px-6 lg:px-8">
+          <div class="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
+            <div class="rounded-[2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02))] p-6 sm:p-8">
+              <div class="text-sm font-semibold uppercase tracking-[0.25em] text-lime-300">Punti di forza</div>
+              <h2 class="mt-4 text-3xl font-black sm:text-4xl">Il tuo sito web: semplice, veloce, indispensabile.</h2>
+              <div class="mt-8 grid gap-4 sm:grid-cols-2">
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">La presenza online aumenta fiducia e credibilita.</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">Rapido, senza complicazioni tecniche o perdite di tempo.</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">Investimento contenuto con ritorni concreti in visibilita e clienti.</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">Condivisione della tua visione con un click.</div>
+              </div>
+            </div>
+
+            <div class="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <div class="mb-6 flex items-center gap-3">
+                <div class="flex w-full flex-col gap-2">
+                  <h3 class="flex items-center gap-3 text-xl font-semibold">
+                    <img class="h-9 w-auto" src="assets/img/panda_logo_icon.png" alt="Panda Software House" />
+                    Perche Panda e non altri
+                  </h3>
+                  <p class="text-sm text-white/60">Non facciamo promesse, costruiamo soluzioni utili e presenti.</p>
+                </div>
+              </div>
+              <div class="space-y-4">
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">Non sei solo: ti accompagniamo in ogni fase del progetto.</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">Lavoriamo su esigenze concrete, dal piccolo evento alla piattaforma operativa.</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">Mettiamo ordine alle idee e le traduciamo in un'interfaccia chiara.</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 p-4 text-sm leading-7 text-white/72">Parliamone: il caffe lo offriamo noi.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" class="px-4 py-20 sm:px-6 lg:px-8">
+          <div class="max-w-3xl">
+            <div class="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">FAQ</div>
+            <h2 class="mt-3 text-3xl font-black sm:text-4xl">Domande frequenti</h2>
+          </div>
+
+          <div class="mt-10 grid gap-4">
+            <article class="rounded-[1.5rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <h3 class="text-lg font-semibold">Realizzate siti web solo per aziende?</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">No. Realizziamo siti web sia per aziende sia per privati, compresi matrimoni, battesimi, compleanni e landing page promozionali.</p>
+            </article>
+            <article class="rounded-[1.5rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <h3 class="text-lg font-semibold">Potete sviluppare anche una web app o un gestionale?</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Si. Oltre ai siti web sviluppiamo web app, piattaforme operative, software gestionali e prodotti digitali su misura.</p>
+            </article>
+            <article class="rounded-[1.5rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <h3 class="text-lg font-semibold">Possiamo partire da un'idea senza nozioni informatiche?</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Certo. Ti aiutiamo a trasformare un'idea iniziale in una soluzione concreta e sostenibile.</p>
+            </article>
+            <article class="rounded-[1.5rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+              <h3 class="text-lg font-semibold">Il mio sito sara consultabile anche da smartphone?</h3>
+              <p class="mt-3 text-sm leading-7 text-white/68">Si. Tutte le interfacce sono pensate per funzionare bene su desktop, tablet e mobile.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contatti" class="px-4 py-16 sm:px-6 lg:px-8">
+          <div class="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+            <div class="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl sm:p-8">
+              <img class="h-10 w-auto" src="assets/img/panda_logo.png" alt="Panda Software House" />
+              <h2 class="mt-6 text-3xl font-black">Contatti</h2>
+              <p class="mt-4 leading-8 text-white/70">
+                Hai un'idea per un sito web, una web app, un gestionale o un progetto digitale? Scrivici e costruiamo insieme la soluzione piu adatta.
+              </p>
+
+              <div class="mt-8 space-y-4 text-sm text-white/72">
+                <div class="rounded-2xl border border-white/10 bg-black/10 px-4 py-3">hello@panda.dev</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 px-4 py-3">+39 02 0000 0000</div>
+                <div class="rounded-2xl border border-white/10 bg-black/10 px-4 py-3">Milano, Italia</div>
+              </div>
+            </div>
+
+            <div class="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur-xl sm:p-8">
+              <h3 class="text-2xl font-bold">Raccontaci la tua idea</h3>
+              <p class="mt-3 leading-7 text-white/65">Dalla pagina evento al gestionale personalizzato, trasformiamo le idee in interfacce e prodotti reali.</p>
+
+              <form class="mt-8 grid gap-4 sm:grid-cols-2" action="#" method="post">
+                <div>
+                  <label class="mb-2 block text-sm text-white/70" for="name">Nome</label>
+                  <input id="name" type="text" placeholder="Mario Rossi" class="h-12 w-full rounded-2xl border border-white/10 bg-black/15 px-4 text-white outline-none placeholder:text-white/30 focus:border-cyan-300/50" />
+                </div>
+                <div>
+                  <label class="mb-2 block text-sm text-white/70" for="email">Email</label>
+                  <input id="email" type="email" placeholder="nome@azienda.it" class="h-12 w-full rounded-2xl border border-white/10 bg-black/15 px-4 text-white outline-none placeholder:text-white/30 focus:border-cyan-300/50" />
+                </div>
+                <div class="sm:col-span-2">
+                  <label class="mb-2 block text-sm text-white/70" for="project-type">Tipo progetto</label>
+                  <input id="project-type" type="text" placeholder="Sito web, sito evento, web app, gestionale..." class="h-12 w-full rounded-2xl border border-white/10 bg-black/15 px-4 text-white outline-none placeholder:text-white/30 focus:border-cyan-300/50" />
+                </div>
+                <div class="sm:col-span-2">
+                  <label class="mb-2 block text-sm text-white/70" for="description">Descrizione</label>
+                  <textarea id="description" rows="5" placeholder="Raccontaci la tua idea..." class="w-full rounded-2xl border border-white/10 bg-black/15 px-4 py-3 text-white outline-none placeholder:text-white/30 focus:border-cyan-300/50"></textarea>
+                </div>
+                <div class="flex flex-col gap-3 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
+                  <p class="text-xs leading-6 text-white/45">Il form e statico: collegalo a un servizio esterno per ricevere i contatti.</p>
+                  <button class="rounded-full bg-[linear-gradient(135deg,#7CFF00,#19CFFF,#248BFF)] px-7 py-4 text-sm font-semibold text-slate-950 hover:opacity-95" type="submit">
+                    Invia richiesta
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="border-t border-white/10 bg-black/20">
+        <div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-8 text-sm text-white/55 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
+            <img class="h-10 w-auto" src="assets/img/panda_logo_icon.png" alt="Panda Software House" />
+            <span>&copy; <span id="year"></span> Panda Software House. Tutti i diritti riservati.</span>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <a href="#" class="hover:text-white">Privacy Policy</a>
+            <a href="#" class="hover:text-white">Cookie Policy</a>
+            <a href="#contatti" class="hover:text-white">Contatti</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
