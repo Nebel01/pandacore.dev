@@ -117,6 +117,14 @@
   </head>
   <body class="bg-night text-white selection:bg-cyan-300 selection:text-slate-950">
     <div class="site-shell min-h-screen" id="top">
+      <aside class="development-banner" aria-label="Avviso sito in sviluppo">
+        <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 text-sm leading-6 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+          <p>
+            <strong>Sito in fase di sviluppo.</strong> Questa versione e pubblicata solo a scopo dimostrativo e di test; alcune sezioni, inclusa la documentazione completa su privacy e cookie policy, sono ancora in preparazione.
+          </p>
+          <a href="#contatti" class="development-banner__link">Contattaci per informazioni</a>
+        </div>
+      </aside>
       <header class="sticky top-0 z-50 border-b border-white/10 bg-[#06061f]/80 backdrop-blur-xl">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <a href="#top" aria-label="Vai alla homepage Panda Software House">
@@ -580,8 +588,8 @@
             <span>&copy; <span id="year"></span> Panda Software House. Tutti i diritti riservati.</span>
           </div>
           <div class="flex flex-wrap gap-4">
-            <a href="#" class="hover:text-white">Privacy Policy</a>
-            <a href="#" class="hover:text-white">Cookie Policy</a>
+            <span>Privacy Policy in preparazione</span>
+            <span>Cookie Policy in preparazione</span>
             <a href="#contatti" class="hover:text-white">Contatti</a>
           </div>
         </div>
